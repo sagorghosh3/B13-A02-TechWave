@@ -5,7 +5,7 @@
 }
 body{
   font-family: 'Segoe UI', sans-serif;
-  background-color: #221d41;
+  background-color: #191341;
   color: #fff;
 }
 nav {
@@ -58,6 +58,18 @@ nav>span{
     height: 760px;
     width: 100%;
 }
+.circle>img{
+    position: relative;
+    right: -625px;
+    top: 100px;
+}
+.microphone{
+    position: absolute;
+    left: 740px;
+    bottom: 310px;
+}
+
+
 
 
 /* About the podcast */
