@@ -8,9 +8,9 @@ body{
   background-color: #221d41;
   color: #fff;
 }
-header nav {
+nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #2c2540;
@@ -48,6 +48,9 @@ header nav {
     height: 20px;
     width: 20px;
     object-fit: contain;
+}
+nav>span{
+    display: none;
 }
 /* banner section */
 #banner{ 
@@ -140,4 +143,25 @@ header nav {
     display: grid;
     grid-template-columns: repeat(4,1fr);
 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive design  */
+@media screen and (max-width:576px) {
+    .menu-container{
+        display: none;
+    }
+    nav>span{
+    display: inline;
+}
+    
 }
